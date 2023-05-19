@@ -29,3 +29,13 @@
     color: white;
     padding: 10px;
 }
+
+@media (max-width: 780px) {
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+}
