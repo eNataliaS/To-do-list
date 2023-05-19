@@ -1,14 +1,5 @@
 {
-  const tasks = [
-    {
-      content: "wyjść z psem",
-      done: true,
-    },
-    {
-      content: "napisać prostą listę zadań",
-      done: false,
-    },
-  ];
+  const tasks = [];
 
   const addNewTask = (newTaskContent) => {
     tasks.push({
@@ -24,9 +15,9 @@
   };
 
   const toggleTaskDone = (taskIndex) => {
-    tasks[taskIndex].done = !tasks[taskIndex].done
+    tasks[taskIndex].done = !tasks[taskIndex].done;
     render();
-  }
+  };
 
   const bindEvents = () => {
     const removeButtons = document.querySelectorAll(".js-remove");
@@ -44,18 +35,22 @@
         toggleTaskDone(index);
       });
     });
-  }
+  };
 
   const render = () => {
     let htmlString = "";
 
     for (const task of tasks) {
       htmlString += `
-            <li${task.done ? ' style="text-decoration: line-through"' : ""}>
-            <button class="js-done">zrobione?</button>
-            <button class="js-remove">usuń</button>
-           ${task.content}
-            </li>
+      <li class="list__items">
+      <button class="list__button--done js-done">${
+        task.done ? "✓" : ""
+      }</button>
+      <span class="${task.done ? "list__text--done" : ""}"> ${
+        task.content
+      } </span>
+      <button class="list__button--remove js-remove">🗑</button>
+  </li>
             `;
     }
 
