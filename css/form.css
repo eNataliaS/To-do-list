@@ -2,11 +2,11 @@
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr auto;
-    gap: 10px;
+    gap: 20px;
 }
 
 .form__input {
-    border: 2px solid #ddd;
+    border: 1px solid #ddd;
     padding: 7px;
     float: left;
 }
