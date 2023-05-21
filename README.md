@@ -6,7 +6,7 @@ Try it!
 https://enatalias.github.io/To-do-list/
 
 ## Short prezentation of page:
-![gif](images/AnimationOf-To-Do-List)
+![gif](images/AnimationOf-To-Do-List.gif)
 
 ## Technologies:
 - JavaScript
