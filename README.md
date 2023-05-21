@@ -5,9 +5,8 @@ Try it!
 ## Demo:
 https://enatalias.github.io/To-do-list/
 
-### Short record how does it works:
-
-
+## Short prezentation of page:
+![gif](images/AnimationOf-To-Do-List)
 
 ## Technologies:
 - JavaScript
