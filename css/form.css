@@ -16,18 +16,21 @@
     background-color: teal;
     color: white;
     padding: 10px;
+    transition: transform 2s;
 }
 
 .form__button:hover {
     cursor: pointer;
     color: white;
     padding: 10px;
+    transform: scale(1.1);
 }
 
 .form__button:active {
     cursor: pointer;
     color: white;
     padding: 10px;
+    transform: scale(0.9);
 }
 
 @media (max-width: 780px) {

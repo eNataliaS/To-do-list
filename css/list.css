@@ -13,6 +13,7 @@
     height: 30px;
     width: 30px;
     color: white;
+    transition: 2s;
 }
 
 .list__button--done:hover {
@@ -22,6 +23,7 @@
     width: 30px;
     color: white;
     cursor: pointer;
+    transition: 2s;
 }
 
 .list__button--done:active {
@@ -31,6 +33,7 @@
     width: 30px;
     color: white;
     cursor: pointer;
+    transition: 2s;
 }
 
 .list__button--remove {
