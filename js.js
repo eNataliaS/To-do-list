@@ -105,11 +105,12 @@
   };
 
   const render = () => {
+
+    renderNewTask();
+    renderButtons();
     bindRemoveEvents();
     bindToggleEvents();
     bindButtonEvents();
-    renderNewTask();
-    renderButtons();
   };
 
   const onFormSubmit = (event) => {
