@@ -26,7 +26,7 @@
     justify-content: center;
     transition: 0.5s;
     cursor: pointer;
-    
+
 }
 
 .section__headerButton :disabled {
