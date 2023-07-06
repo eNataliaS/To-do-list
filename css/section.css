@@ -32,3 +32,8 @@
 .section__headerButton :disabled {
     color: #ddd;
 }
+
+.section__headerName {
+    padding: 10px;
+    margin: 0;
+}
