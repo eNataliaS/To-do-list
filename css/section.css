@@ -10,7 +10,25 @@
     margin: 0;
     padding: 20px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 
+}
+
+.section__headerButton {
+    color: teal;
+    background-color: transparent;
+    border: 0px transparent;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.section__headerButton :disabled {
+    color: #ddd;
 }
